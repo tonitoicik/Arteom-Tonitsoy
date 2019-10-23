@@ -1,0 +1,3 @@
+program sada ; 
+var a, b ,c : integer 
+begin 
