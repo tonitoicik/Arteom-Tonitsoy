@@ -1,12 +1,12 @@
 program aoeihfoaehgoisahg;
-var a,b,c : real;
+var a,b,c,pi : real;
 i : integer  ;
 begin
-for i:=0 to 10 do begin 
-b:=8+32*i ;
+for i:=0 to 32000 do begin 
+b:=8;
 c:=16*sqr(i)+16*i+3 ;
-a:=b/c ;
-writeln(a) ;
+a:=b/c ; 
+pi:= pi+a  ;
 end;
-writeln(c);
+writeln(pi);
 end.
